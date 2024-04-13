@@ -1,0 +1,35 @@
+table{
+    width: 100%;
+    min-height: fit-content;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: left;
+    border-bottom: 1px solid #282B30;
+}
+
+
+th, td {
+    padding: 1rem 2rem;
+    width: 35px;
+}
+
+td {
+    color: #fff;
+    font-size: medium;
+}
+
+#flag{
+    width: 60px;
+    border-radius: 8px;
+    height: 40px;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    th, td{
+        padding: 12px;
+    }
+  }

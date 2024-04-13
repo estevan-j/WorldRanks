@@ -1,0 +1,27 @@
+$dark2 : #282B30;
+$dark : #1B1D1F;
+$gray : #6C727F;
+$white: #D2D5DA;
+
+.region-contries{
+    margin: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+button{
+    background-color: $dark;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.active-country{
+    background-color: $dark2;
+    color: $white;
+}

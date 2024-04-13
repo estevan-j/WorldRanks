@@ -1,0 +1,13 @@
+body, #root{
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #1B1D1F;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #6C727F;
+}
